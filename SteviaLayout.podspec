@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/sachadso'
   s.source_files     = "Source/*.swift"
   s.requires_arc     = true
+  s.swift_version    = '4'
   s.ios.deployment_target = "8"
   s.tvos.deployment_target = "10.2"
   s.description  = "Elegant view layout for iOS :leaves: - Auto layout code finally readable by a human being"
